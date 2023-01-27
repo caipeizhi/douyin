@@ -1,0 +1,17 @@
+<cover-view class="tab-bar">
+  <cover-view class="tab-bar-border"></cover-view>
+  <cover-view wx:for="{{list}}" wx:key="index" class="tab-bar-item" data-path="{{item.pagePath}}" data-index="{{index}}"    bindtap="switchTab">
+    <cover-view wx:if="{{!item.isIcon}}"   style="color: {{selected === index ? selectedColor : color}}">{{item.text}}</cover-view>
+    <cover-view wx:else >
+         <!-- 底部的发布按钮 -->
+         <cover-view class="publish" >
+            <cover-view class="bg_a"> </cover-view>
+            <cover-view class="bg_b"> </cover-view>
+            <cover-view class="bg_c">
+            </cover-view>
+            <cover-image class="btn" src="/images/plus.png"></cover-image>
+         </cover-view>
+    </cover-view>
+
+  </cover-view>
+</cover-view>

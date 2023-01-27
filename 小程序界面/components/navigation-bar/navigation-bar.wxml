@@ -1,0 +1,11 @@
+<!-- 自定义顶部栏 -->
+<view class="nav-bar" style="height:{{navBarHeight}}px;">
+    <view class="menu-bar" style="height: {{menuHeight}}px;position: absolute;top:{{menuTop}}px;width: {{menuWidth}}px;">
+      <image class="it add-icon" src="/images/add.png"></image>
+      <text class="it">同城</text>
+      <text class="it">关注</text>
+      <text class="it">商城</text>
+      <text class="it ac">推荐</text>
+    </view>
+</view>
+ 

@@ -1,0 +1,27 @@
+<view class="cover_pane" >
+  <view class="user">
+    <image src="{{head}}"></image>
+  </view>
+  <view class="it">
+    <image bindtap="onDianZan" data-vid="{{vid}}" src="/images/xx{{xx_status}}.png"></image>
+    <view>{{dianzan}}</view>
+  </view> 
+  <view class="it">
+    <image bindtap="onPingLun" src="/images/pl.png"></image>
+    <view>{{pinglun}}</view>
+  </view>
+  <view class="it">
+    <image bindtap="onShouCang" data-vid="{{vid}}" src="/images/sc{{sc_status}}.png"></image>
+    <view>{{shoucang}}</view>
+  </view>
+  <view class="it">
+    <image bindtap="onZhuanFa" src="/images/zf1.png"></image>
+    <view>{{zhuanfa}}</view>
+  </view>
+</view>
+
+
+<view class="info2">
+     <view class="author">{{userNick}}</view>
+     <text class="content">{{content}}</text>
+</view>

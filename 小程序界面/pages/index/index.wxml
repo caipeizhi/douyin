@@ -1,0 +1,20 @@
+<navigation-bar></navigation-bar>
+ 
+<mp-video-swiper 
+  class="video-swiper" 
+  video-list="{{videoList}}" 
+  bindplay="onPlay"
+  bindpause="onPause"
+  bindtimeupdate="onTimeUpdate"
+  bindended="onEnded"
+  binderror="onError"
+  bindwaiting="onWaiting"
+  bindprogress="onProgress"
+  bindloadedmetadata="onLoadedMetaData" 
+  binddianzan="dianzhan"
+  bindpinglun="pinglun"
+  bindshoucang="shoucang"
+  bindzhuanfa="zhuanfa"
+></mp-video-swiper>
+
+ 
